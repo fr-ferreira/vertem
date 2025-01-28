@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "natives",
+    "slug": "natives",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fabiones.natives"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.fabiones.natives"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1d54c09a-0788-4a73-9f81-769f7bca2a7b"
+      }
+    },
+    "owner": "fabiones",
+    "updates": {
+      "url": "https://u.expo.dev/1d54c09a-0788-4a73-9f81-769f7bca2a7b"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
