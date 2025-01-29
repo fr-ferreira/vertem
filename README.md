@@ -40,4 +40,3 @@ use para iniciar o Projeto:
 
 ![Foto 4](04.png)
 
-# Projeto basico, foi apenas instalado o ReactNative na construção e desevolvido o CRUD (TODO), caso necessário algo mais complexo solicitar.
